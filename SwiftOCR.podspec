@@ -132,6 +132,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   s.swift_versions = ['5.1', '5.2']
-  
+   s.dependency "GPUImage"
 
 end
